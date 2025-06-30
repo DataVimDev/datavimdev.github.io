@@ -8,11 +8,11 @@ tag:
   - math
   - ai
 star: true
-sticky: true
+sticky: false
 ---
 
 # Infinite Class Field Towers
-The cover image for the post, also used on the website elsewhere, is an AI generated interpretation of an 'infinite class field tower'. Infinite class field towers are not tangible objects, so the generate image is abstract but looked interesting so I used it. Unless you're a number theorist, you've probably never heard of a class field tower, so what are these and why would it matter if they are finite or infinite?
+The cover image for the post is an AI generated interpretation of an 'infinite class field tower'. Infinite class field towers are not tangible objects, so the generate image is abstract but looked interesting so I used it. Unless you're a number theorist, you've probably never heard of a class field tower, so what are these and why would it matter if they are finite or infinite?
 
 Before going further, I'll warn you that this post gets progressively more advanced mathematically. To avoid getting lost in the details, here is the main idea: unique factorization into primes doesn't always happen and when you try to fix this you may introduce additional factorization issues, so you fix those, and so on forming what is called a Class Field Tower. Depending on the structure of the place you started the tower, the process may stop and you solve all the unique factorization problems giving a finite tower. If your starting field has the 'right' structure though, the process will never end forming an infinite tower.
 
