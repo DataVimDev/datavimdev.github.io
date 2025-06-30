@@ -17,10 +17,8 @@ export default navbar([
         icon: "pen-to-square",
         prefix: "vim/",
         children: [
-          { text: "Apple1", icon: "pen-to-square", link: "1" },
-          { text: "Apple2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "Config", icon: "pen-to-square", link: "my_config" },
+          { text: "Why NeoVim?", icon: "pen-to-square", link: "why_neovim" },
         ],
       },
     ],
