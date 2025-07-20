@@ -8,11 +8,6 @@ export default navbar([
     prefix: "/posts/",
     children: [
         {
-            text:"Infinite Class Field Towers",
-            icon: "pen",
-            link: "inf_cft"
-        },
-        {
         text: "Vim Related",
         icon: "pen-to-square",
         prefix: "vim/",
