@@ -1,4 +1,0 @@
-User-agent:*
-Disallow:
-
-Sitemap: https://datavim-net.github.io/sitemap.xml

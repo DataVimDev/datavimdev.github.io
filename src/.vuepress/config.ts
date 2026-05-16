@@ -9,7 +9,7 @@ export default defineUserConfig({
   title: "DataVim",
   description: "A personal website",
 
-  theme,
+  theme: theme,
 
   // Enable it with pwa
   // shouldPrefetch: false,

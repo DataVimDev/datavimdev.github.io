@@ -18,10 +18,10 @@ export default hopeTheme({
   docsDir: "src",
 
   // navbar
-  navbar,
+  navbar: navbar,
 
   // sidebar
-  sidebar,
+  sidebar: sidebar,
 
   footer: "",
 
@@ -40,10 +40,8 @@ export default hopeTheme({
     description: "A mathematician, data scientist, and software engineer",
     intro: "/intro.html",
     medias: {
-      Email: "mailto:info@example.com",
-      GitHub: "https://example.com",
-      Linkedin: "https://example.com",
-      Rss: "https://example.com",
+      GitHub: "https://github.com/jpreszler",
+      Linkedin: "https://linkedin.com/in/jpreszler",
      // VuePressThemeHope: {
      //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
      //   link: "https://theme-hope.vuejs.press",

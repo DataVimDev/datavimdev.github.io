@@ -21,7 +21,7 @@ Pydantic models, especially with the performance leaps in version 2, transform d
 The most significant difference is when and how data is verified. Dataclasses assume you are providing the correct types while Pydantic enforces them (possibly by coercion).
 
 ### The Dataclass Approach:
-```{python}
+```python
 from dataclasses import dataclass
 
 @dataclass
@@ -34,7 +34,7 @@ user = User(id="not-an-int", email=123)
 ```
 
 ### The Pydantic v2 Approach:
-```{python}
+```python
 from pydantic import BaseModel, ValidationError
 
 class User(BaseModel):
@@ -51,7 +51,7 @@ I've added the try/except so we can see the errors more cleanly.
 
 What if we had the correct type for the email, but an email is a specifically structured string? Pydantic allows us to add field validators (and model validators) that can run before or after built-in validation - so we could add a custom validator on the email. As you can image, this common problem has a solution by installing `pydantic[email]` extras:
 
-```{python}
+```python
 from pydantic import BaseModel, EmailStr, ValidationError
 
 class User(BaseModel):
@@ -96,10 +96,10 @@ Dataclasses: Requires the `asdict()` utility. It is recursive but can be slow an
 
 Pydantic v2: Uses model_dump() and model_dump_json() which provide built-in support for aliases, exclusions, and custom encoders.
 
-```{python}
+```python
 class Configuration(BaseModel):
     password: str
-    api_key: str = Field(alias="apiKey")
+    api_key: str = Field(serialization_alias="apiKey")
     timeout: int = 30
     call_back_url: str | None = None
 
