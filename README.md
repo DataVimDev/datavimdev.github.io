@@ -1,4 +1,3 @@
-[![deployed](https://github.com/DataVimDev/datavimdev.github.io/workflows/static/badge.svg?branch=main)](https://github.com/DataVimDev/datavimdev.github.io/actions?query=workflow%3Astatic)
 [![Deploy static content to Pages](https://github.com/DataVimDev/datavimdev.github.io/actions/workflows/static.yml/badge.svg)](https://github.com/DataVimDev/datavimdev.github.io/actions/workflows/static.yml)
 
 # DataVim.dev Vuepress Site
